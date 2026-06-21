@@ -20,12 +20,6 @@ Both defender and attacker decide their strategies **simultaneously** — neithe
 3. Defender best response: shifts monitoring to include attacker's likely target
 4. Repeat until neither player wants to change — **equilibrium reached**
 
-### Strategy Selection (Nash)
-```python
-strategy_select_nash(G, budget=5, max_iter=10)
-```
-Converges in ~5–7 iterations typically. Returns the stable monitoring set where neither player benefits from changing.
-
 ### Limitation
 Both players respond to the **current** state, not the anticipated future state. Defender cannot predict where the attacker will strike next. This is why Nash is **reactive**.
 
@@ -37,16 +31,10 @@ Both players respond to the **current** state, not the anticipated future state.
 A sequential, leader-follower game where the **Leader** (Defender) commits to a strategy first, and the **Follower** (Attacker) observes and responds optimally.
 
 ### How It Works in Our Simulation
-1. **Defender (Leader):** Enumerates all possible monitoring sets of size 5
+1. **Defender (Leader):** Enumerates possible monitoring sets from top-12 high-risk nodes
 2. For each monitoring set: simulates what the attacker would do (best response)
 3. Computes estimated Ud for that outcome
 4. Commits to the monitoring set with the **highest Ud** — knowing the attacker is rational
-
-### Strategy Selection (Stackelberg)
-```python
-strategy_select_stackelberg(G, budget=5)
-```
-Evaluates combinations of top-12 high-risk nodes (fast approximation). Returns the optimal monitoring set under rational attacker assumption.
 
 ### Why Stackelberg Is Better for Security
 | | Nash | Stackelberg |
@@ -71,22 +59,22 @@ Evaluates combinations of top-12 high-risk nodes (fast approximation). Returns t
 
 ---
 
-## 4. Strategy Differences in Practice
+## 4. Defender Resource Allocation
 
-### Test on 10-node network (seed=42):
-- **Stackelberg** selected nodes with **balanced risk + centrality** — spread monitoring to cover attacker's anticipated move
-- **Nash** selected the **highest raw risk nodes** — no anticipation, just current state
+The defender has a **fixed budget** of 5 monitored nodes out of 50. This models real-world constraints — a network operator cannot monitor every device with equal intensity. Both strategies must decide which 5 nodes get monitoring resources each round.
 
-### Key Insight
-Stackelberg monitoring set is different from Nash because it solves:
-
-> "If I monitor these nodes, the rational attacker moves to that node. So I should include that node in my monitoring set, which pushes the attacker elsewhere. I should pick the set that makes every possible attack as detectable as possible."
-
-Nash simply answers: **"What is the best response to the attacker's current behaviour?"**
+- **Stackelberg:** allocates based on anticipated attacker response — proactive
+- **Nash:** allocates based on current risk scores converged through iteration — reactive
 
 ---
 
-## 5. Connection to 6G Scheduling
+## 5. Attack Prediction
+
+Stackelberg's core advantage is **attack prediction** — by simulating the attacker's best response to every candidate monitoring set, the defender effectively "plays out" the attacker's move before committing. This is computationally more expensive (evaluates combinations) but produces a measurably better outcome.
+
+---
+
+## 6. Connection to 6G Scheduling
 
 In our 6G scheduling context, the base station (defender/leader) allocates radio resource blocks first. Users (followers) transmit based on what's assigned. This is the same Stackelberg structure — the base station can anticipate which users will request the most bandwidth and pre-allocate accordingly, rather than reacting to requests after they arrive.
 

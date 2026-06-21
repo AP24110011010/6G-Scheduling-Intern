@@ -1,0 +1,201 @@
+time,strategy,target,monitored,detected,compromised_node,compromised_ratio,avg_risk,Ud_val,Ua_val
+0,Stackelberg,Device2,"['Device21', 'Device1', 'Device38', 'Device12', 'Device46']",False,True,0.02,0.538,-2.0,2.0
+1,Stackelberg,Device25,"['Device21', 'Device1', 'Device38', 'Device12', 'Device46']",False,True,0.04,0.5428,-2.0,2.0
+2,Stackelberg,Device27,"['Device21', 'Device1', 'Device38', 'Device12', 'Device46']",False,True,0.06,0.5466,-2.0,2.0
+3,Stackelberg,Device1,"['Device21', 'Device1', 'Device38', 'Device12', 'Device46']",True,False,0.06,0.5482,1.0,-1.0
+4,Stackelberg,Device42,"['Device1', 'Device21', 'Device38', 'Device12', 'Device46']",False,True,0.08,0.5524,-2.0,2.0
+5,Stackelberg,Device46,"['Device1', 'Device21', 'Device38', 'Device12', 'Device46']",True,True,0.1,0.552,-1.0,1.0
+6,Stackelberg,Device38,"['Device1', 'Device21', 'Device38', 'Device12', 'Device24']",True,True,0.12,0.5512,-1.0,1.0
+7,Stackelberg,Device3,"['Device1', 'Device21', 'Device12', 'Device24', 'Device10']",False,False,0.12,0.5556,0.0,0.0
+8,Stackelberg,Device10,"['Device1', 'Device21', 'Device12', 'Device24', 'Device10']",True,True,0.14,0.5562,-1.0,1.0
+9,Stackelberg,Device19,"['Device1', 'Device21', 'Device12', 'Device24', 'Device48']",False,True,0.16,0.5608,-2.0,2.0
+10,Stackelberg,Device48,"['Device1', 'Device21', 'Device12', 'Device24', 'Device48']",True,True,0.18,0.5616,-1.0,1.0
+11,Stackelberg,Device1,"['Device1', 'Device21', 'Device12', 'Device24', 'Device6']",True,False,0.18,0.5626,1.0,-1.0
+12,Stackelberg,Device32,"['Device1', 'Device21', 'Device12', 'Device24', 'Device6']",False,True,0.2,0.5686,-2.0,2.0
+13,Stackelberg,Device49,"['Device1', 'Device21', 'Device12', 'Device24', 'Device6']",False,True,0.22,0.5736,-2.0,2.0
+14,Stackelberg,Device24,"['Device1', 'Device21', 'Device12', 'Device24', 'Device6']",True,True,0.24,0.5736,-1.0,1.0
+15,Stackelberg,Device1,"['Device1', 'Device21', 'Device12', 'Device6', 'Device3']",False,False,0.24,0.5784,0.0,0.0
+16,Stackelberg,Device8,"['Device1', 'Device21', 'Device12', 'Device6', 'Device3']",False,False,0.24,0.5852,0.0,0.0
+17,Stackelberg,Device7,"['Device1', 'Device21', 'Device12', 'Device8', 'Device6']",False,True,0.26,0.5892,-2.0,2.0
+18,Stackelberg,Device40,"['Device1', 'Device21', 'Device12', 'Device8', 'Device6']",False,False,0.26,0.596,0.0,0.0
+19,Stackelberg,Device41,"['Device1', 'Device21', 'Device12', 'Device8', 'Device40']",False,True,0.28,0.6016,-2.0,2.0
+20,Stackelberg,Device12,"['Device1', 'Device21', 'Device12', 'Device8', 'Device40']",True,True,0.3,0.6016,-1.0,1.0
+21,Stackelberg,Device30,"['Device1', 'Device21', 'Device8', 'Device40', 'Device6']",False,True,0.32,0.6064,-2.0,2.0
+22,Stackelberg,Device44,"['Device1', 'Device21', 'Device8', 'Device40', 'Device6']",False,False,0.32,0.6104,0.0,0.0
+23,Stackelberg,Device50,"['Device1', 'Device21', 'Device8', 'Device40', 'Device6']",False,True,0.34,0.6168,-2.0,2.0
+24,Stackelberg,Device40,"['Device1', 'Device21', 'Device8', 'Device40', 'Device6']",True,True,0.36,0.617,-1.0,1.0
+25,Stackelberg,Device47,"['Device1', 'Device21', 'Device8', 'Device6', 'Device44']",False,True,0.38,0.6218,-2.0,2.0
+26,Stackelberg,Device3,"['Device1', 'Device21', 'Device8', 'Device6', 'Device44']",False,True,0.4,0.6274,-2.0,2.0
+27,Stackelberg,Device21,"['Device1', 'Device21', 'Device8', 'Device6', 'Device44']",True,True,0.42,0.6266,-1.0,1.0
+28,Stackelberg,Device39,"['Device1', 'Device8', 'Device6', 'Device44', 'Device23']",False,False,0.42,0.6324,0.0,0.0
+29,Stackelberg,Device20,"['Device1', 'Device8', 'Device6', 'Device44', 'Device23']",False,False,0.42,0.6368,0.0,0.0
+30,Stackelberg,Device39,"['Device1', 'Device20', 'Device8', 'Device6', 'Device44']",False,True,0.44,0.6428,-2.0,2.0
+31,Stackelberg,Device20,"['Device1', 'Device20', 'Device8', 'Device6', 'Device44']",True,True,0.46,0.6432,-1.0,1.0
+32,Stackelberg,Device1,"['Device1', 'Device8', 'Device6', 'Device44', 'Device23']",False,False,0.46,0.648,0.0,0.0
+33,Stackelberg,Device9,"['Device1', 'Device8', 'Device6', 'Device44', 'Device23']",False,False,0.46,0.6528,0.0,0.0
+34,Stackelberg,Device23,"['Device1', 'Device8', 'Device6', 'Device44', 'Device23']",True,True,0.46,0.654,-1.0,1.0
+35,Stackelberg,Device5,"['Device1', 'Device8', 'Device6', 'Device44', 'Device23']",False,False,0.46,0.661,0.0,0.0
+36,Stackelberg,Device1,"['Device1', 'Device8', 'Device6', 'Device44', 'Device5']",False,True,0.48,0.6646,-2.0,2.0
+37,Stackelberg,Device9,"['Device8', 'Device6', 'Device44', 'Device5', 'Device23']",False,True,0.5,0.6716,-2.0,2.0
+38,Stackelberg,Device16,"['Device8', 'Device6', 'Device44', 'Device5', 'Device23']",False,False,0.5,0.676,0.0,0.0
+39,Stackelberg,Device44,"['Device8', 'Device6', 'Device44', 'Device5', 'Device23']",True,True,0.52,0.6778,-1.0,1.0
+40,Stackelberg,Device5,"['Device8', 'Device6', 'Device5', 'Device23', 'Device14']",False,True,0.54,0.6846,-2.0,2.0
+41,Stackelberg,Device8,"['Device8', 'Device6', 'Device23', 'Device14', 'Device4']",False,True,0.56,0.6886,-2.0,2.0
+42,Stackelberg,Device28,"['Device6', 'Device23', 'Device14', 'Device4', 'Device28']",True,False,0.56,0.6904,1.0,-1.0
+43,Stackelberg,Device6,"['Device6', 'Device23', 'Device14', 'Device28', 'Device4']",False,True,0.58,0.695,-2.0,2.0
+44,Stackelberg,Device28,"['Device23', 'Device14', 'Device28', 'Device4', 'Device35']",True,True,0.58,0.6988,-1.0,1.0
+45,Stackelberg,Device17,"['Device28', 'Device23', 'Device14', 'Device4', 'Device35']",False,False,0.58,0.7054,0.0,0.0
+46,Stackelberg,Device17,"['Device28', 'Device23', 'Device14', 'Device4', 'Device17']",True,True,0.58,0.708,-1.0,1.0
+47,Stackelberg,Device4,"['Device28', 'Device23', 'Device17', 'Device14', 'Device4']",True,True,0.58,0.7098,-1.0,1.0
+48,Stackelberg,Device4,"['Device28', 'Device23', 'Device17', 'Device4', 'Device14']",True,True,0.6,0.7126,-1.0,1.0
+49,Stackelberg,Device15,"['Device28', 'Device23', 'Device17', 'Device14', 'Device35']",False,False,0.6,0.7182,0.0,0.0
+50,Stackelberg,Device15,"['Device28', 'Device15', 'Device23', 'Device17', 'Device14']",False,True,0.62,0.7236,-2.0,2.0
+51,Stackelberg,Device14,"['Device28', 'Device23', 'Device17', 'Device14', 'Device35']",False,False,0.62,0.7292,0.0,0.0
+52,Stackelberg,Device14,"['Device28', 'Device23', 'Device17', 'Device14', 'Device35']",True,False,0.62,0.733,1.0,-1.0
+53,Stackelberg,Device36,"['Device14', 'Device28', 'Device23', 'Device17', 'Device35']",False,False,0.62,0.7396,0.0,0.0
+54,Stackelberg,Device23,"['Device14', 'Device36', 'Device28', 'Device23', 'Device17']",False,True,0.64,0.744,-2.0,2.0
+55,Stackelberg,Device14,"['Device14', 'Device36', 'Device28', 'Device17', 'Device35']",False,True,0.66,0.7508,-2.0,2.0
+56,Stackelberg,Device36,"['Device36', 'Device28', 'Device17', 'Device35', 'Device16']",True,True,0.68,0.7514,-1.0,1.0
+57,Stackelberg,Device13,"['Device28', 'Device17', 'Device35', 'Device16', 'Device34']",False,False,0.68,0.7574,0.0,0.0
+58,Stackelberg,Device13,"['Device28', 'Device17', 'Device13', 'Device35', 'Device16']",True,False,0.68,0.7594,1.0,-1.0
+59,Stackelberg,Device35,"['Device28', 'Device17', 'Device13', 'Device35', 'Device16']",True,False,0.68,0.7616,1.0,-1.0
+60,Stackelberg,Device13,"['Device28', 'Device17', 'Device13', 'Device35', 'Device16']",True,True,0.68,0.7642,-1.0,1.0
+61,Stackelberg,Device33,"['Device13', 'Device28', 'Device17', 'Device35', 'Device16']",False,False,0.68,0.7704,0.0,0.0
+62,Stackelberg,Device28,"['Device13', 'Device28', 'Device17', 'Device33', 'Device35']",True,True,0.7,0.7718,-1.0,1.0
+63,Stackelberg,Device17,"['Device13', 'Device17', 'Device33', 'Device35', 'Device16']",True,True,0.72,0.774,-1.0,1.0
+64,Stackelberg,Device43,"['Device13', 'Device33', 'Device35', 'Device16', 'Device34']",False,False,0.72,0.7784,0.0,0.0
+65,Stackelberg,Device18,"['Device13', 'Device43', 'Device33', 'Device35', 'Device16']",False,False,0.72,0.7844,0.0,0.0
+66,Stackelberg,Device35,"['Device13', 'Device43', 'Device33', 'Device18', 'Device35']",False,True,0.74,0.7902,-2.0,2.0
+67,Stackelberg,Device13,"['Device13', 'Device43', 'Device33', 'Device18', 'Device16']",True,True,0.76,0.7912,-1.0,1.0
+68,Stackelberg,Device34,"['Device43', 'Device33', 'Device18', 'Device16', 'Device34']",True,False,0.76,0.7944,1.0,-1.0
+69,Stackelberg,Device16,"['Device43', 'Device33', 'Device34', 'Device18', 'Device16']",False,True,0.78,0.8014,-2.0,2.0
+70,Stackelberg,Device45,"['Device43', 'Device33', 'Device34', 'Device18', 'Device22']",False,False,0.78,0.8058,0.0,0.0
+71,Stackelberg,Device43,"['Device43', 'Device33', 'Device34', 'Device18', 'Device45']",False,True,0.8,0.8112,-2.0,2.0
+72,Stackelberg,Device34,"['Device33', 'Device34', 'Device18', 'Device45', 'Device22']",True,True,0.8,0.8134,-1.0,1.0
+73,Stackelberg,Device45,"['Device34', 'Device33', 'Device18', 'Device45', 'Device22']",True,False,0.8,0.8148,1.0,-1.0
+74,Stackelberg,Device26,"['Device34', 'Device33', 'Device18', 'Device45', 'Device22']",False,False,0.8,0.821,0.0,0.0
+75,Stackelberg,Device18,"['Device34', 'Device33', 'Device18', 'Device26', 'Device45']",True,True,0.8,0.8238,-1.0,1.0
+76,Stackelberg,Device33,"['Device18', 'Device34', 'Device33', 'Device26', 'Device45']",True,True,0.8,0.8256,-1.0,1.0
+77,Stackelberg,Device34,"['Device33', 'Device18', 'Device34', 'Device26', 'Device45']",True,True,0.82,0.827,-1.0,1.0
+78,Stackelberg,Device33,"['Device33', 'Device18', 'Device26', 'Device45', 'Device22']",True,True,0.84,0.828,-1.0,1.0
+79,Stackelberg,Device31,"['Device18', 'Device26', 'Device45', 'Device22', 'Device31']",False,False,0.84,0.8336,0.0,0.0
+80,Stackelberg,Device26,"['Device18', 'Device26', 'Device45', 'Device31', 'Device22']",True,True,0.84,0.8364,-1.0,1.0
+81,Stackelberg,Device11,"['Device18', 'Device26', 'Device45', 'Device31', 'Device22']",False,False,0.84,0.8418,0.0,0.0
+82,Stackelberg,Device31,"['Device18', 'Device26', 'Device45', 'Device31', 'Device11']",True,False,0.84,0.8448,1.0,-1.0
+83,Stackelberg,Device11,"['Device18', 'Device26', 'Device31', 'Device45', 'Device11']",True,False,0.84,0.8466,1.0,-1.0
+84,Stackelberg,Device45,"['Device18', 'Device26', 'Device31', 'Device45', 'Device11']",False,True,0.86,0.852,-2.0,2.0
+85,Stackelberg,Device18,"['Device18', 'Device26', 'Device31', 'Device11', 'Device22']",True,True,0.86,0.8536,-1.0,1.0
+86,Stackelberg,Device18,"['Device18', 'Device26', 'Device31', 'Device11', 'Device22']",True,True,0.88,0.8536,-1.0,1.0
+87,Stackelberg,Device31,"['Device26', 'Device31', 'Device11', 'Device22', 'Device29']",True,True,0.88,0.8568,-1.0,1.0
+88,Stackelberg,Device31,"['Device31', 'Device26', 'Device11', 'Device22', 'Device29']",True,True,0.9,0.8572,-1.0,1.0
+89,Stackelberg,Device26,"['Device11', 'Device22', 'Device26', 'Device29', 'Device37']",False,True,0.92,0.8614,-2.0,2.0
+90,Stackelberg,Device22,"['Device11', 'Device22', 'Device29', 'Device37']",True,False,0.92,0.865,1.0,-1.0
+91,Stackelberg,Device22,"['Device11', 'Device22', 'Device29', 'Device37']",True,False,0.92,0.8662,1.0,-1.0
+92,Stackelberg,Device22,"['Device11', 'Device22', 'Device29', 'Device37']",True,False,0.92,0.8672,1.0,-1.0
+93,Stackelberg,Device22,"['Device11', 'Device22', 'Device29', 'Device37']",True,False,0.92,0.87,1.0,-1.0
+94,Stackelberg,Device11,"['Device11', 'Device22', 'Device29', 'Device37']",True,False,0.92,0.8734,1.0,-1.0
+95,Stackelberg,Device11,"['Device11', 'Device22', 'Device29', 'Device37']",False,True,0.94,0.8794,-2.0,2.0
+96,Stackelberg,Device22,"['Device22', 'Device29', 'Device37']",True,True,0.94,0.882,-1.0,1.0
+97,Stackelberg,Device22,"['Device22', 'Device29', 'Device37']",True,True,0.96,0.8838,-1.0,1.0
+98,Stackelberg,Device37,"['Device29', 'Device37']",True,False,0.96,0.8858,1.0,-1.0
+99,Stackelberg,Device37,"['Device29', 'Device37']",False,False,0.96,0.8902,0.0,0.0
+0,Nash,Device27,"['Device21', 'Device38', 'Device46', 'Device12', 'Device24']",False,True,0.02,0.536,-2.0,2.0
+1,Nash,Device19,"['Device21', 'Device38', 'Device46', 'Device12', 'Device24']",False,True,0.04,0.5406,-2.0,2.0
+2,Nash,Device32,"['Device21', 'Device38', 'Device46', 'Device12', 'Device24']",False,True,0.06,0.546,-2.0,2.0
+3,Nash,Device30,"['Device21', 'Device38', 'Device46', 'Device12', 'Device24']",False,True,0.08,0.5512,-2.0,2.0
+4,Nash,Device44,"['Device21', 'Device38', 'Device46', 'Device12', 'Device24']",False,False,0.08,0.556,0.0,0.0
+5,Nash,Device1,"['Device21', 'Device38', 'Device46', 'Device12', 'Device24']",False,False,0.08,0.56,0.0,0.0
+6,Nash,Device35,"['Device21', 'Device38', 'Device46', 'Device12', 'Device24']",False,False,0.08,0.565,0.0,0.0
+7,Nash,Device25,"['Device21', 'Device38', 'Device46', 'Device12', 'Device24']",False,True,0.1,0.5696,-2.0,2.0
+8,Nash,Device12,"['Device21', 'Device38', 'Device46', 'Device12', 'Device24']",True,True,0.12,0.5696,-1.0,1.0
+9,Nash,Device6,"['Device21', 'Device38', 'Device46', 'Device24', 'Device10']",False,True,0.14,0.574,-2.0,2.0
+10,Nash,Device36,"['Device21', 'Device38', 'Device46', 'Device24', 'Device10']",False,False,0.14,0.5804,0.0,0.0
+11,Nash,Device41,"['Device21', 'Device38', 'Device46', 'Device24', 'Device10']",False,True,0.16,0.5848,-2.0,2.0
+12,Nash,Device33,"['Device21', 'Device38', 'Device46', 'Device24', 'Device10']",False,False,0.16,0.5894,0.0,0.0
+13,Nash,Device28,"['Device21', 'Device38', 'Device46', 'Device24', 'Device10']",False,False,0.16,0.594,0.0,0.0
+14,Nash,Device17,"['Device21', 'Device38', 'Device46', 'Device24', 'Device10']",False,False,0.16,0.5998,0.0,0.0
+15,Nash,Device46,"['Device21', 'Device38', 'Device46', 'Device24', 'Device10']",False,True,0.18,0.6024,-2.0,2.0
+16,Nash,Device39,"['Device21', 'Device38', 'Device24', 'Device10', 'Device36']",False,False,0.18,0.6076,0.0,0.0
+17,Nash,Device47,"['Device21', 'Device38', 'Device24', 'Device10', 'Device36']",False,True,0.2,0.6118,-2.0,2.0
+18,Nash,Device28,"['Device21', 'Device38', 'Device24', 'Device10', 'Device36']",False,True,0.22,0.6164,-2.0,2.0
+19,Nash,Device38,"['Device21', 'Device38', 'Device24', 'Device10', 'Device36']",True,True,0.24,0.6156,-1.0,1.0
+20,Nash,Device21,"['Device21', 'Device24', 'Device10', 'Device36', 'Device48']",True,True,0.26,0.6148,-1.0,1.0
+21,Nash,Device24,"['Device24', 'Device10', 'Device36', 'Device48', 'Device44']",False,True,0.28,0.6178,-2.0,2.0
+22,Nash,Device5,"['Device10', 'Device36', 'Device48', 'Device44', 'Device42']",False,False,0.28,0.6228,0.0,0.0
+23,Nash,Device10,"['Device10', 'Device36', 'Device48', 'Device44', 'Device42']",True,True,0.3,0.6234,-1.0,1.0
+24,Nash,Device48,"['Device36', 'Device48', 'Device44', 'Device42', 'Device35']",True,True,0.32,0.6242,-1.0,1.0
+25,Nash,Device39,"['Device36', 'Device44', 'Device42', 'Device35', 'Device49']",False,True,0.34,0.6284,-2.0,2.0
+26,Nash,Device5,"['Device36', 'Device44', 'Device42', 'Device35', 'Device49']",False,False,0.34,0.6346,0.0,0.0
+27,Nash,Device8,"['Device36', 'Device44', 'Device42', 'Device35', 'Device49']",False,False,0.34,0.6394,0.0,0.0
+28,Nash,Device49,"['Device36', 'Device44', 'Device42', 'Device35', 'Device49']",True,True,0.36,0.6414,-1.0,1.0
+29,Nash,Device1,"['Device36', 'Device44', 'Device42', 'Device35', 'Device5']",False,False,0.36,0.6456,0.0,0.0
+30,Nash,Device40,"['Device36', 'Device44', 'Device42', 'Device35', 'Device5']",False,False,0.36,0.6506,0.0,0.0
+31,Nash,Device23,"['Device36', 'Device44', 'Device42', 'Device35', 'Device40']",False,True,0.38,0.6552,-2.0,2.0
+32,Nash,Device20,"['Device36', 'Device44', 'Device42', 'Device35', 'Device40']",False,True,0.4,0.662,-2.0,2.0
+33,Nash,Device40,"['Device36', 'Device44', 'Device42', 'Device35', 'Device40']",True,True,0.42,0.664,-1.0,1.0
+34,Nash,Device43,"['Device36', 'Device44', 'Device42', 'Device35', 'Device5']",False,False,0.42,0.6682,0.0,0.0
+35,Nash,Device8,"['Device36', 'Device44', 'Device42', 'Device35', 'Device5']",False,True,0.44,0.6726,-2.0,2.0
+36,Nash,Device1,"['Device36', 'Device44', 'Device42', 'Device35', 'Device5']",False,True,0.46,0.6794,-2.0,2.0
+37,Nash,Device44,"['Device36', 'Device44', 'Device42', 'Device35', 'Device5']",True,True,0.48,0.6804,-1.0,1.0
+38,Nash,Device35,"['Device36', 'Device42', 'Device35', 'Device5', 'Device43']",True,True,0.48,0.6816,-1.0,1.0
+39,Nash,Device16,"['Device35', 'Device36', 'Device42', 'Device5', 'Device43']",False,False,0.48,0.6866,0.0,0.0
+40,Nash,Device50,"['Device35', 'Device36', 'Device42', 'Device5', 'Device43']",False,False,0.48,0.691,0.0,0.0
+41,Nash,Device31,"['Device35', 'Device36', 'Device42', 'Device50', 'Device5']",False,False,0.48,0.697,0.0,0.0
+42,Nash,Device9,"['Device35', 'Device36', 'Device42', 'Device50', 'Device5']",False,False,0.48,0.7018,0.0,0.0
+43,Nash,Device16,"['Device35', 'Device36', 'Device42', 'Device50', 'Device5']",False,False,0.48,0.7078,0.0,0.0
+44,Nash,Device9,"['Device16', 'Device35', 'Device36', 'Device42', 'Device50']",False,False,0.48,0.7128,0.0,0.0
+45,Nash,Device43,"['Device16', 'Device35', 'Device36', 'Device42', 'Device9']",False,True,0.5,0.7178,-2.0,2.0
+46,Nash,Device26,"['Device16', 'Device35', 'Device36', 'Device42', 'Device9']",False,False,0.5,0.7226,0.0,0.0
+47,Nash,Device18,"['Device16', 'Device35', 'Device36', 'Device42', 'Device9']",False,False,0.5,0.7268,0.0,0.0
+48,Nash,Device35,"['Device16', 'Device35', 'Device36', 'Device42', 'Device9']",False,True,0.52,0.7302,-2.0,2.0
+49,Nash,Device36,"['Device16', 'Device36', 'Device42', 'Device9', 'Device50']",False,True,0.54,0.734,-2.0,2.0
+50,Nash,Device34,"['Device16', 'Device42', 'Device9', 'Device50', 'Device5']",False,False,0.54,0.739,0.0,0.0
+51,Nash,Device7,"['Device16', 'Device42', 'Device9', 'Device50', 'Device34']",False,True,0.56,0.7448,-2.0,2.0
+52,Nash,Device9,"['Device16', 'Device42', 'Device9', 'Device50', 'Device34']",False,True,0.58,0.7494,-2.0,2.0
+53,Nash,Device34,"['Device16', 'Device42', 'Device50', 'Device34', 'Device5']",True,True,0.6,0.7512,-1.0,1.0
+54,Nash,Device26,"['Device16', 'Device42', 'Device50', 'Device5', 'Device2']",False,False,0.6,0.756,0.0,0.0
+55,Nash,Device17,"['Device16', 'Device26', 'Device42', 'Device50', 'Device5']",False,True,0.62,0.7616,-2.0,2.0
+56,Nash,Device14,"['Device16', 'Device26', 'Device42', 'Device50', 'Device5']",False,False,0.62,0.7664,0.0,0.0
+57,Nash,Device15,"['Device16', 'Device26', 'Device42', 'Device50', 'Device5']",False,False,0.62,0.7722,0.0,0.0
+58,Nash,Device3,"['Device16', 'Device26', 'Device42', 'Device50', 'Device5']",False,False,0.62,0.777,0.0,0.0
+59,Nash,Device18,"['Device16', 'Device26', 'Device42', 'Device50', 'Device3']",False,False,0.62,0.7818,0.0,0.0
+60,Nash,Device22,"['Device16', 'Device26', 'Device42', 'Device18', 'Device50']",False,False,0.62,0.7872,0.0,0.0
+61,Nash,Device5,"['Device16', 'Device26', 'Device42', 'Device18', 'Device50']",False,True,0.64,0.7924,-2.0,2.0
+62,Nash,Device18,"['Device16', 'Device26', 'Device42', 'Device18', 'Device50']",False,True,0.66,0.7968,-2.0,2.0
+63,Nash,Device2,"['Device16', 'Device26', 'Device42', 'Device50', 'Device3']",False,True,0.68,0.8024,-2.0,2.0
+64,Nash,Device33,"['Device16', 'Device26', 'Device42', 'Device50', 'Device3']",False,True,0.7,0.809,-2.0,2.0
+65,Nash,Device42,"['Device16', 'Device26', 'Device42', 'Device50', 'Device3']",True,True,0.72,0.8102,-1.0,1.0
+66,Nash,Device50,"['Device16', 'Device26', 'Device50', 'Device3', 'Device15']",True,True,0.74,0.8118,-1.0,1.0
+67,Nash,Device16,"['Device16', 'Device26', 'Device3', 'Device15', 'Device4']",True,True,0.76,0.812,-1.0,1.0
+68,Nash,Device15,"['Device26', 'Device3', 'Device15', 'Device4', 'Device31']",False,True,0.78,0.8164,-2.0,2.0
+69,Nash,Device26,"['Device26', 'Device3', 'Device4', 'Device31', 'Device22']",False,True,0.8,0.82,-2.0,2.0
+70,Nash,Device22,"['Device3', 'Device4', 'Device31', 'Device22', 'Device14']",True,False,0.8,0.8236,1.0,-1.0
+71,Nash,Device45,"['Device3', 'Device22', 'Device4', 'Device31', 'Device14']",False,False,0.8,0.8288,0.0,0.0
+72,Nash,Device4,"['Device3', 'Device22', 'Device4', 'Device45', 'Device31']",False,False,0.8,0.8332,0.0,0.0
+73,Nash,Device4,"['Device4', 'Device3', 'Device22', 'Device45', 'Device31']",True,True,0.82,0.8334,-1.0,1.0
+74,Nash,Device3,"['Device3', 'Device22', 'Device45', 'Device31', 'Device14']",True,True,0.82,0.835,-1.0,1.0
+75,Nash,Device31,"['Device3', 'Device22', 'Device45', 'Device31', 'Device14']",True,False,0.82,0.8366,1.0,-1.0
+76,Nash,Device3,"['Device3', 'Device22', 'Device31', 'Device45', 'Device14']",False,True,0.84,0.8402,-2.0,2.0
+77,Nash,Device22,"['Device22', 'Device31', 'Device45', 'Device14', 'Device13']",False,True,0.86,0.8468,-2.0,2.0
+78,Nash,Device14,"['Device31', 'Device45', 'Device14', 'Device13', 'Device29']",True,False,0.86,0.8502,1.0,-1.0
+79,Nash,Device31,"['Device31', 'Device45', 'Device14', 'Device13', 'Device29']",True,True,0.86,0.8542,-1.0,1.0
+80,Nash,Device31,"['Device31', 'Device45', 'Device14', 'Device13', 'Device29']",True,True,0.88,0.8548,-1.0,1.0
+81,Nash,Device14,"['Device45', 'Device14', 'Device13', 'Device29', 'Device37']",True,False,0.88,0.8568,1.0,-1.0
+82,Nash,Device14,"['Device14', 'Device45', 'Device13', 'Device29', 'Device37']",True,True,0.88,0.859,-1.0,1.0
+83,Nash,Device45,"['Device14', 'Device45', 'Device13', 'Device29', 'Device37']",True,True,0.88,0.8624,-1.0,1.0
+84,Nash,Device14,"['Device45', 'Device14', 'Device13', 'Device29', 'Device37']",False,True,0.9,0.8676,-2.0,2.0
+85,Nash,Device45,"['Device11', 'Device13', 'Device29', 'Device37', 'Device45']",True,True,0.92,0.8696,-1.0,1.0
+86,Nash,Device29,"['Device11', 'Device13', 'Device29', 'Device37']",False,False,0.92,0.8754,0.0,0.0
+87,Nash,Device29,"['Device11', 'Device13', 'Device29', 'Device37']",True,False,0.92,0.8784,1.0,-1.0
+88,Nash,Device29,"['Device11', 'Device13', 'Device29', 'Device37']",False,True,0.94,0.8852,-2.0,2.0
+89,Nash,Device13,"['Device11', 'Device13', 'Device37']",True,False,0.94,0.8872,1.0,-1.0
+90,Nash,Device13,"['Device11', 'Device13', 'Device37']",True,False,0.94,0.8906,1.0,-1.0
+91,Nash,Device13,"['Device11', 'Device13', 'Device37']",True,False,0.94,0.8928,1.0,-1.0
+92,Nash,Device13,"['Device11', 'Device13', 'Device37']",True,True,0.94,0.8958,-1.0,1.0
+93,Nash,Device13,"['Device11', 'Device13', 'Device37']",True,True,0.96,0.8968,-1.0,1.0
+94,Nash,Device11,"['Device11', 'Device37']",False,False,0.96,0.9024,0.0,0.0
+95,Nash,Device11,"['Device11', 'Device37']",True,False,0.96,0.9042,1.0,-1.0
+96,Nash,Device11,"['Device11', 'Device37']",True,False,0.96,0.9078,1.0,-1.0
+97,Nash,Device11,"['Device11', 'Device37']",False,True,0.98,0.9118,-2.0,2.0
+98,Nash,Device37,['Device37'],True,False,0.98,0.9152,1.0,-1.0
+99,Nash,Device37,['Device37'],False,False,0.98,0.922,0.0,0.0
